@@ -6,12 +6,12 @@ builds:
     goos:
       - windows
     goarch:
-#      - arm64
       - amd64
     env:
       - CGO_ENABLED=0
     flags:
       - -trimpath
+      - -buildvcs=false
     ldflags:
       - "-s -w"
       - "-X github.com/Diniboy1123/usque/cmd.version={{.Tag}}"
