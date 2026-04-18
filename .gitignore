@@ -29,3 +29,7 @@ config*.json*
 usque
 usque.exe
 dist/
+
+#
+custom_go/
+go-custom.zip
